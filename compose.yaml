@@ -1,0 +1,13 @@
+services:
+  static:
+    build: .
+    hostname: ymnnjs
+    networks:
+      - cloud
+    user: 1000:1000
+    volumes:
+      - .:/app
+
+networks:
+  cloud:
+    external: true

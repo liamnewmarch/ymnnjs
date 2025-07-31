@@ -1,0 +1,11 @@
+{
+  "name": "youmightnotneedjavascript",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node --watch-path=content --watch-path=templates --watch server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
